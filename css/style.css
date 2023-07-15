@@ -1,0 +1,14 @@
+:root {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 2rem;
+}
+
+p sup {
+  font-size: 0.4rem;
+}
