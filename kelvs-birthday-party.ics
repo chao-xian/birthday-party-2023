@@ -1,13 +1,19 @@
 BEGIN:VCALENDAR
+PRODID:-//caldav.icloud.com//CALDAVJ 2319B1018//EN
+METHOD:REQUEST
 VERSION:2.0
-PRODID:http://www.icalmaker.com
 BEGIN:VEVENT
-UID:http://www.icalmaker.com/event/6fde89f7-b802-48a8-b804-197b810292f0
-DTSTAMP:20230715T131940Z
-DTSTART:20230909T180000Z
-DTEND:20230910T010000Z
-SUMMARY:Kelv's Birthday Party!!!
-LOCATION:The Cat and Mutton, 76 Broadway Market , Broadway Market, London E8 4RA
-DESCRIPTION:Hey pals! Let's get together and have a good time.
+CLASS:PUBLIC
+DESCRIPTION:Kelv's Birthday Party!!!\nDate and Time - Sep 9\, 2023 6:00 P
+ M to Sep 10\, 2023 1:00 AM\nVenue - Cat and Mutton 76 Broadway Market Lo
+ ndon E8 4RA\nHey pals! Let's get together and have a good time.\n
+DTEND:20230910T000000Z
+DTSTART:20230909T170000Z
+LAST-MODIFIED:20230715T220709Z
+LOCATION:Cat and Mutton 76 Broadway Market London E8 4RA
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:Kelv's Birthday Party!!!
+UID:6F69FB8C3FC75CD4B91FA63E20E0413D1618FAB0_0
+DTSTAMP:20230715T220710Z
 END:VEVENT
 END:VCALENDAR
