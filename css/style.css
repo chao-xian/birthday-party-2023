@@ -1,7 +1,23 @@
 :root {
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
+}
+
+body {
+  margin: auto 1.4rem;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    margin: 2rem 8rem;
+  }
 }
 
 h1 {
@@ -11,4 +27,23 @@ h1 {
 
 p sup {
   font-size: 0.4rem;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.3rem;
+  text-indent: -1.3rem;
+}
+
+li.rsvp::before {
+  content: "🙋 ";
+}
+
+li.cal::before {
+  content: "📆 ";
 }
