@@ -1,0 +1,25 @@
+{
+  "name": "birthday-party-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.html, **/*.css, **/*.js' --no-notify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chao-xian/birthday-party-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chao-xian/birthday-party-2023/issues"
+  },
+  "homepage": "https://github.com/chao-xian/birthday-party-2023#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
