@@ -1,10 +1,12 @@
 :root {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 24px;
 }
 
 body {
   margin: 1.4rem;
+  color: rgb(242, 242, 242);
+  background-color: black;
 }
 
 main, header {
@@ -12,10 +14,14 @@ main, header {
   max-width: 800px;
 }
 
-h1 {
-  font-family: "Gasoek One", serif;
-  font-weight: 400;
+h1, h2, h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
   font-style: normal;
+  color: rgb(255, 72, 72);
+}
+
+h1 {
   font-size: 3rem;
 }
 
@@ -23,15 +29,22 @@ h2 {
   font-size: 1.3rem;
 }
 
-h2.noto-sans-tc-subheading {
-  font-family: "Noto Sans TC", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: bold;
+h3 {
+  font-size: 1.0rem;
 }
 
 p sup {
   font-size: 0.4rem;
+}
+
+a {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: rgb(255, 72, 72);
+  }
 }
 
 img {
