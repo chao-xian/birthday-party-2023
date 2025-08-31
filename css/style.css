@@ -63,8 +63,16 @@ li.rsvp::before {
   content: "🙋 ";
 }
 
+li.ticket::before {
+  content: "🎟️ ";
+}
+
 li.cal::before {
   content: "📆 ";
+}
+
+li.map::before {
+  content: "📍 ";
 }
 
 @media screen and (min-width: 400px) {
